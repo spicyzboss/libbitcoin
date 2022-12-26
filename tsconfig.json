@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "declaration": true
+  },
+  "exclude": ["node_modules", "**/node_modules/*", "dist"]
+}

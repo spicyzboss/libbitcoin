@@ -1,0 +1,23 @@
+{
+  "name": "@spicyzboss/libbitcoin",
+  "version": "0.0.1-alpha",
+  "description": "A spicyzboss' bitcoin node library",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "bitcoin",
+    "spicyzboss"
+  ],
+  "author": "spicyzboss",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^3.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
